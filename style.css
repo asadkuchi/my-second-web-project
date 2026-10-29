@@ -1,0 +1,511 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html , body {
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.root{
+    width: 100%;
+    position: relative;
+    height: 120%;
+    background-color: rgb(10, 7, 30);
+    padding: 10px;
+}
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    gap: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.245);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.brand {
+    width: 250px;
+    height: 70px;
+    background-color: pink;
+    background-image: url("./img/Neon Bento Analytics Dashboard.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0px;
+}
+.div1 {
+    width: 50%;
+    height: 100%;
+    margin-left: 28%;
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+}
+
+.div2{
+    width: 220px;
+    height: 100%;
+}
+
+h1{
+    font-size: 13px;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.519);
+}
+
+.div3{
+    width: 300px;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    border: 2px solid rgba(0, 0, 0, 0.292);
+    padding: 3px;
+}
+
+.monthly{
+    width: 100px;
+    height: 100%;
+    position: relative;
+}
+
+h2{
+    position: absolute;
+    font-size: 16px;
+    top: 8px;
+    color: rgba(255, 255, 255, 0.519);
+    
+}
+
+.anual{
+    width: 200px;
+    height: 100%;
+    position: relative;
+}
+
+h3{
+    position: absolute;
+    font-size: 16px;
+    top: 8px;
+    color: rgb(3, 184, 3);
+    
+}
+
+h4{
+    position: absolute;
+    font-size: 16px;
+    top: 8px;
+    left: 40px;
+     color: rgba(255, 255, 255, 0.519);
+}
+
+
+
+.div4{
+    width: 80px;
+    height: 100%;
+    background-image: url(./img/9b92f219-a20b-424e-8a75-36b4325736b1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.plan{
+    width: 55%;
+    height: 60%;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #4DFF91, purple) 1;
+    border-radius: 20px;
+    position: absolute;
+    top: 15%;
+}
+
+.pro{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.best{
+    width: 200px;
+    height: 100%;
+    color: white;
+    font-size: 36px;
+    margin-top: 1px;
+}
+
+.button{
+    width: 210px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.462);
+    border-radius: 40px;
+    color: white;
+    font-size: 36px;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.year {
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    left: 23px;
+    top: 25%;
+}
+
+h5 {
+    color: white;
+    font-size: 50px;
+}
+
+h6 {
+    position: absolute;
+    top: 22px;
+    margin-left: 50%;
+    font-size: 25px;
+}
+
+
+.advance{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 30px;
+}
+ul {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    width: 53%;
+    height: 80px;
+    background: linear-gradient(to right, #12A8F9, #4DFF91);
+    position: absolute;
+    top: 60%;
+    left: 32px;
+    border-radius: 20px;
+}
+
+.platform{
+    width: 42%;
+    height: 28%;
+    background-color: rgba(255, 255, 255, 0.048);
+    border-radius: 10px;
+    position: absolute;
+    top: 15%;
+    left: 57%;
+}    
+
+.reach{
+    width: 200px;
+    height: 60px;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.three{
+    width: 40px;
+    height: 40px;
+}
+
+h6{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 8px;
+    left: 40%;
+    color: white;
+}
+
+.active{
+    width: 60%;
+    height: 40px;
+    display: flex;
+    gap: 30%;
+    position: absolute;
+    top: 70px;
+    left: 13px;
+}
+
+.project{
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+}
+
+.grouth{
+    width: 30%;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+}
+
+.towel{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    left: 12px;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+.line{
+    width: 200px;
+    height: 60px;
+    background-image: url(./img/imge.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20%;
+}
+
+.heart{
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    left: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
+
+.heart-two{
+    width: 120px;
+    height: 60px;
+    background-image: url(./img/heart.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 76%;
+}
+.network{
+    width: 42%;
+    height: 28%;
+    background-image: url(./img/mape\ image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 47%;
+    left: 57%;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.204);
+    background-image: url(./img/Screenshot\ \(70\).png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.edge{
+    width: 170px;
+    height: 80px;
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.app{
+    width: 55%;
+    height: 150px;
+    background-color: rgba(245, 222, 179, 0.028);
+    position: absolute;
+    top: 79%;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+.github{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.slap{
+    width: 50px;
+    height: 40px;
+    margin-top: 3px;
+    margin-left: 60%;
+    font-size: 28px;
+    color: white;
+}
+
+.git{
+    width: 100px;
+    height: 60px;
+    background-image: url(./img/Gemini_Generated_Image_l4ko0bl4ko0bl4ko.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 24px;
+}
+
+.chat{
+    width: 100px;
+    height: 60px;
+    background-image: url(./img/slack.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.intercom{
+    width: 100px;
+    height: 60px;
+    background-image: url(./img/intercom.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+}
+
+.figma{
+    width: 100px;
+    height: 60px;
+    background-image: url(./img/figma.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+
+.ecosystem{
+    width: 560px;
+    height: 150px;
+    background-color: rgba(245, 222, 179, 0.028);
+    position: absolute;
+    top: 79%;
+    border-radius: 10px;
+    left: 57%;
+    display: flex;
+}
+
+.team{
+    width: 220px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.collection{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    margin-left: 85%;
+    font-size: 28px;
+    color: white;
+}    
+
+.div{
+    width: 200px;
+    height: 80px;
+    background-color: rgba(0, 255, 255, 0.241);
+    margin-top: 10px;
+    margin-left: 20%;
+    border-radius: 35%;
+    position: absolute;
+    top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.div7{
+    width: 200px;
+    height: 80px;
+    background-color:rgba(128, 0, 128, 0.258);
+    position: absolute;
+    top: 30%;
+    margin-top: 10px;
+    margin-left: 30%;
+    border-radius: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div8{
+    width: 120px;
+    height: 40px;
+    background-image: url(./img/chat.png);
+    background-position: center  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+}
+
+.div9{
+    width: 120px;
+    height: 40px;
+    background-image: url(./img/chating.png);
+    background-position: center  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.div10{
+    width: 120px;
+    height: 40px;
+    background-image: url(./img/only.jpeg);
+    background-position: center  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
